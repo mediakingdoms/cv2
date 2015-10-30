@@ -1,0 +1,259 @@
+// Base Styles
+
+body
+  font-family: "Open Sans", sans-serif
+  background-color: rgb(154, 219, 250)
+
+h1
+  color: #68696a
+  weight: 300
+
+
+figure
+  margin: auto
+
+.content
+  position: relative
+  background: rgb(154, 219, 250)
+  margin-bottom: 400px
+  overflow: hidden
+
+
+
+  article
+    padding: 50px 0
+    max-width: 1024px
+    margin: 0 auto
+    text-align: center
+    p
+      font-size: 18px
+    h1
+      font:
+        size: 28px
+
+    //background-color: white
+
+    hr
+      height: 2px
+      border: none
+      background-color: #68696a
+      width: 640px
+
+img
+  max-width: 100%
+
+
+
+
+// Parallax
+
+.bird-boxes
+  position: relative
+  height: 640px
+  background:
+    image: url(../images/bird-bg.jpg)
+    size: auto 100%
+    position: top center
+    attachment: fixed
+  overflow: hidden
+
+.barshade
+  height: 680px
+  width: 100%
+  background-color: rgba(0, 0, 0, 0.6)
+  position: absolute
+  top: -629px
+  margin-top: -50px
+
+
+
+.logo
+  height: 125px
+  width: 100%
+  background:
+    image: url(../images/logo_final.svg)
+    position: center
+    repeat: no-repeat
+  position: absolute
+  top: 50%
+  margin-top: -200px
+
+.fore-bird
+  width: 100%
+  height: 873px
+  background:
+    image: url(../images/fore-bird.png)
+    repeat: no-repeat
+    position: right bottom
+  position: absolute
+  float: right
+  margin-left: 0px
+  top: 100px
+
+.fore-bird-lefty
+  width: 100%
+  height: 873px
+  background:
+    image: url(../images/fore-bird_left.png)
+    repeat: no-repeat
+    position: left bottom
+  position: absolute
+  float: left
+  margin-left: 0px
+  top: 0px
+
+.back-bird
+  width: 1410px
+  height: 600px
+  background:
+    image: url(../images/back-bird.png)
+    repeat: no-repeat
+    position: top left
+  position: absolute
+  left: 50%
+  margin-left: -952px
+  top: 205px
+
+
+
+// Model Grid
+
+.clothes-pics
+  margin-bottom: 20px
+
+  figure
+    margin-bottom: 40px
+    position: relative
+    opacity: 0
+    transform: translateX(30px)
+    transition: all 0.4s ease-in-out
+    overflow: hidden
+    cursor: pointer
+
+    &.is-showing
+      opacity: 1
+      transform: translateX(0px)
+
+    img
+      display: block
+      transform: scale(1.9)
+      transition: all 0.3s ease-in-out
+
+    &:hover
+      figcaption
+        left: 0%
+
+      img
+        transform: scale(1)
+
+  figcaption
+    position: absolute
+    bottom: 0px
+    left: -100%
+    background: rgba(204, 204, 204, 0.6)
+    color: black
+    padding: 2px 8px
+    font-size: 11px
+    transition: all 0.3s ease-in-out
+
+
+
+// large-window
+
+.large-window
+  height: 1024px
+  background:
+    image: url(../images/longshot.jpg)
+    position: center 0px
+    repeat: repeat-y
+    attachment: fixed
+  margin-top: 100px
+  margin-bottom: 100px
+  border-radius: 50%
+  position: relative
+
+  .window-tint
+    background-color: rgba(0,0,0,0.75)
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    border-radius: 59%
+    display: flex
+    justify-content: center
+    align-items: center
+    opacity: 0
+
+
+  .promo-text
+    color: white
+    font-weight: 100
+    font-size: 80px
+    line-height: 1.2
+
+    strong
+      display: block
+      font-size: 30px
+
+    span
+      font:
+        weight: 300
+        size: 18px
+        style: italic
+      color: rgba(255,255,255,0.6)
+
+    .window-cta
+      font-size: 50px
+      text-decoration: none
+      color: white
+      border: 1px solid white
+      padding: 10px 20px
+      transition: all 0.3s ease-in-out
+
+      &:hover
+        background: white
+        color: black
+
+
+// posts
+
+.blog-posts
+  margin-top: 50px
+
+  .post
+    border: 1px solid #e1e1e1
+    padding: 20px 20px 0
+    background: white
+    position: relative
+
+  .post-1
+    transform: translate(100px, 20px)
+
+  .post-2
+    z-index: 2
+
+  .post-3
+    transform: translate(-100px, 20px)
+
+
+//footer
+
+footer
+  background: gray
+  color: white
+  padding: 40px 0
+  position: fixed
+  bottom: 0
+  width: 100%
+  z-index: -1
+
+  .footer-stuff
+    max-width: 1024px
+    margin: 0 auto
+
+  a
+    color: white
+
+  input
+    color: #666

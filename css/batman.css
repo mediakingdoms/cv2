@@ -1,0 +1,36 @@
+body {
+	background: #040404  no-repeat fixed 50% 0;
+
+}
+
+#page {
+	position: relative;
+	z-index: 9999;
+	width: 100%
+}
+#content {
+	background-color: transparent;
+	background-image: none;
+}
+q
+#parallax {
+	border-top: 1px solid #202328;
+	height: 300px;
+	margin-top: 9px;
+	overflow: hidden;
+	padding-left: 3px;
+	position: relative;
+	width: 800px
+}
+div.para-bruce2 {
+	height: 400px;
+	padding-left: 100px;
+	padding-top: 32px;
+	position: relative;
+	width: 850px
+}
+div.para-miller1, div.para-fight1 {
+	height: 305px;
+	position: relative;
+	width: 810px
+}

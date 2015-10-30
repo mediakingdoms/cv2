@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+       <title>Eze Nmezi</title>
+       <link rel="stylesheet" href="css/style.css"/>
+	   <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+       <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+	<script>
+
+<!----- JQUERY FOR SLIDING NAVIGATION --->
+$(document).ready(function() {
+  $('a[href*=#]').each(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname
+    && this.hash.replace(/#/,'') ) {
+      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+       if ($target) {
+         var targetOffset = $target.offset().top;
+
+<!----- JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE #DIV--->
+         $(this).click(function() {
+            $("#nav li a").removeClass("active");
+            $(this).addClass('active');
+           $('html, body').animate({scrollTop: targetOffset}, 1000);
+           return false;
+         });
+      }
+    }
+  });
+
+});
+
+
+</script>
+
+
+ </head>
+
+<body>
+<!----- LINK BACK TO THE TUTORIAL--->
+<div id="demo_back">
+<a href="#" class="lpanel"></a>
+<a href="#" class="rpanel"></a>
+</div>
+
+<!----- HEADER START--->
+<header id="header">
+<div class="content">
+<div id="logo"><a href="">&nbsp;Eze Nmezi </a></div>
+
+<nav id="nav">
+	<ul>
+		<li><a href="#slide1" class="active" title="Who (People)About Portfolio Photos Videos Section" >Photos</a></li>
+		<li><a href="#slide2" title="What (Things) Services Skills Print blog Profile Section">Skills</a></li>
+		<li><a href="#slide3" title="When (Time)Intereactive Background Section">Background</a></li>
+		<li><a  href="#slide4" title="Where (Places) Biography Award Section"> Awards</a></li>
+		<li><a href="#slide5" title="Why(Motives) Contact Twitter Projects Resume Section">Contact</a></li>
+	</ul>
+</nav>
+</div>
+</header>
+<!----- HEADER END--->
+
+<!----- SLIDES START --->
+	<div id="slide1">
+		<div class="content">
+			<div id="camera"> </div>
+		    <div id="divider"> </div>
+ 			<div id="videocamera"> </div>
+	<h3>Photography • Cinematography </h3>
+           <div id="ribbon"></div>
+		</div>
+    </div>
+
+
+<div id="wrapper">
+    <video id="video" width="560" height="320" autoplay muted loop>
+        <source type="video/webm" src="img/paraback.mp4" />
+    </video>
+    <div id="slide2">
+       <h3 class="quotes">“Javascript, Angular, Drupal,  JQuery, HTML5 have all been used with Adobe, and Microsoft tools!”</h3>
+                         <img src="img/dr-seuss.png" align="left"/> <h4 class="author_name_gray">President  </h4>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+   <div id="slide3">
+		<div class="content">
+			   <div class="quotes_container">
+		       <h3 class="quotes">“I truly believe that all aspects of business and life are being expressed through Digital Media. The stories of our human experience are no longer   rocks buried in the sand they are forms of life stored in clouds and will mold the future to come”  </h3>
+		      <img src="img/norman.png" align="left"/> <h4 class="author_name_white">Client </h4>
+		    </div>
+		</div>
+    </div>
+
+
+	<div id="slide4">
+		<div class="content">
+              <div class="quotes_container">
+		    <h3 class="quotes">“Awards are for the Birds.....reconigtion isn't neccesary when the results make impact on the lives of your audience” </h3>
+		  <img src="img/dr-seuss.png" align="left"/> <h4 class="author_name_gray">Patient </h4>
+		</div>
+		</div>
+    </div>
+
+
+	<div id="slide5">
+		<div class="content">
+           <div class="quotes_container">
+		    <h3 class="quotes">“Join in.....the conversation happening...RIGHT NOW” </h3>
+		    <img src="img/bob.png" align="left"/> <h4 class="author_name_white">Yup</h4>
+		  </div>
+		<div id="copyright"><a href="http://www.1stwebdesigner.com/">Copyright 2015 EzeStudio</a></div>
+		</div>
+
+
+    </div>
+
+<!----- SLIDES END --->
+<div id="urapper">
+    <div class="taller" style="position:relative; z-index: 1; width: 100%; height: 100%">
+  <iframe frameborder="0" height="100%" width="100%"
+    src="https://youtube.com/embed/BKnFtkEzRE0?autoplay=1&loop=1&controls=1&showinfo=0&autohide=0&rel=0">
+  </iframe>
+</div>
+    <div >
+        <h3 class="quotes">“Javascript, Angular, Drupal,  JQuery, HTML5 have all been used with Adobe, and Microsoft tools!”<br>
+
+<br>
+</h3>
+                         <img src="img/dr-seuss.png" align="left"/> <h4 class="author_name_gray">President  </h4>
+    </div>
+</div>
+
+</body>
+</html>
