@@ -25,6 +25,7 @@ html(lang="en")
 
   body
 
+
     header.bird-boxes
       .back-bird
       .logo
@@ -105,12 +106,28 @@ html(lang="en")
 
         p I am a Digital Media Professional with over ten years of design, development and web/video engineering experience. Proven skill in overseeing projects from conception to go-live. Demonstrated ability to engage and work closely with all levels up to the C-Suite.
 
+        br
+        br
+        h1 M Y  &nbsp;&nbsp;  S K I L L S
+
         hr
 
-        img(src="images/mousepara.png")
 
-        h1 MY SKILLS
-
+        #l
+        #myParallax8.glowbox.overflow-hidden.column
+          div(style='left:-1px;top:-1px;background-image: url(images/bg.png); height:900px; width: 100%;', data-lock='yes')
+          div(style='left:0px;top:0px;', data-z='15')
+            img(src='images/sun.png', width='100%' )
+          div(style='left:0px;top:0px;', data-z='10')
+            img(src='images/parabuilding.png', width='100%' )
+          div(style='left:1000px;top:150px;', data-z='-5')
+            img(src='images/bottomtree.png', width='100%')
+          div(style='left:0px;top:-130px;', data-z='-95')
+            img(src='images/foretree.png', width='100%')
+          div(style='left:1000px;top:640px;', data-z='-295')
+            img(src='images/mepara.png', width='100%')
+          div(style='left:110px;top:240px;', data-lock='yes')
+            p.white
         hr
 
         p I excel with Social Media Planning and Strategy. I drove marketing plans and strategies to market and promoted educational and healthcare events through targeted social media campaigns, web content curation (infographics, videos), in-house print campaigns, student, donors, and alumni e-newsletters.
@@ -185,5 +202,14 @@ html(lang="en")
               input.button-primary(type="submit")
 
 
-    script(src="js/jquery-2.1.3.min.js")
-    script(src="js/functions.js")
+
+
+
+  script(src="js/jquery-2.1.3.min.js")
+  script(type='text/javascript', src='js/jquery.real-parallax.js')
+  script(type='text/javascript').
+    $(document).ready(function(){
+    $('#myParallax8').parallax({ focusZ:40, sensitivityX:0, sensitivityY:0.6});
+    });
+
+  script(src="js/functions.js")
