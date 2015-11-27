@@ -594,6 +594,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/emaillogo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5481,
+		"inputAbbreviatedPath": "\/images\/emaillogo.png",
+		"outputAbbreviatedPath": "\/images\/emaillogo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/favicon-114.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -887,6 +898,17 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/images\/mephone_05.png",
 		"outputAbbreviatedPath": "\/images\/mephone_05.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/mkemail.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5126,
+		"inputAbbreviatedPath": "\/images\/mkemail.png",
+		"outputAbbreviatedPath": "\/images\/mkemail.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
