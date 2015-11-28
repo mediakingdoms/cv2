@@ -933,7 +933,7 @@ img {
 .logo {
   height: 125px;
   width: 100%;
-  background-image: url(../images/logo_final.svg);
+  background-image: url(../images/logo.svg);
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
