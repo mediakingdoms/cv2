@@ -693,6 +693,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/fore-bird500.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 602378,
+		"inputAbbreviatedPath": "\/images\/fore-bird500.png",
+		"outputAbbreviatedPath": "\/images\/fore-bird500.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/fore-bird_left.png": {
 		"fileType": 32768,
 		"ignore": 0,

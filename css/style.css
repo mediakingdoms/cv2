@@ -403,11 +403,33 @@ th {
 @media (min-width: 400px) {
   .container {
     width: 85%;
-    padding: 0; } }
+    padding: 0; }
+
+  .fore-bird {
+    width: 100%;
+    height: 873px;
+    background-image: url(../images/fore-bird500.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    position: absolute;
+    float: right;
+    margin-left: 0px;
+    top: 100px; } }
 /* For devices larger than 550px */
 @media (min-width: 550px) {
   .container {
     width: 80%; }
+
+  .fore-bird {
+    width: 100%;
+    height: 873px;
+    background-image: url(../images/fore-bird.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    position: absolute;
+    float: right;
+    margin-left: 0px;
+    top: 100px; }
 
   .column,
   .columns {
@@ -943,9 +965,6 @@ img {
 .fore-bird {
   width: 100%;
   height: 873px;
-  background-image: url(../images/fore-bird.png);
-  background-repeat: no-repeat;
-  background-position: right bottom;
   position: absolute;
   float: right;
   margin-left: 0px;
