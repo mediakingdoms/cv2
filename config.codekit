@@ -882,8 +882,8 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "cv",
-	"displayValueWasSetByUser": 0,
+	"displayValue": "cv2",
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "pencil_gray"
 	},
 "projectSettings": {
