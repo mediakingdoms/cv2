@@ -1104,6 +1104,24 @@ img {
     -webkit-transform: translate(-100px, 20px);
         -ms-transform: translate(-100px, 20px);
             transform: translate(-100px, 20px); }
+  .blog-posts blockquote {
+    font-family: Georgia, serif;
+    font-size: 25px;
+    font-style: italic;
+    margin: 0.25em 0;
+    padding: 0.35em 10px;
+    line-height: 1.45;
+    position: relative;
+    color: #383838; }
+  .blog-posts blockquote:before {
+    display: block;
+    padding-left: 0px;
+    content: "“";
+    font-size: 140px;
+    position: absolute;
+    left: -22px;
+    top: -65px;
+    color: #f0f0f0; }
 
 footer {
   background: gray;
